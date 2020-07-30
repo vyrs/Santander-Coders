@@ -1,0 +1,130 @@
+body { 
+    font-family: sans-serif;
+    background-image: url(../imagens/moroccan-flower.png); 
+    background-attachment: fixed;
+    font-size: large;
+}
+
+h1 {
+    color: rgba(14, 98, 123, 0.8);
+    text-align: center;
+    
+}
+
+h3 {
+    color: #ff5722;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.destaque {
+    background-color: aqua;
+    color: red;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+mark {
+    background-color: blue;
+}
+
+strong {
+    font-size: 25px;
+}
+
+em {
+    color: green;
+}
+
+input {
+    background-color: #ff0000;
+    color: white;  
+}
+    
+input:focus {   
+    background-color: #000000;   
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    text-decoration: none; 
+    color: green;  
+}
+
+a:hover {
+    text-decoration: underline;  
+    color: greenyellow;  
+}
+
+img:hover {
+    border-radius: 20px;
+}
+
+header {
+    width: 960px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px auto;
+    border: dotted 2px #FF0000;
+    background-color: blanchedalmond;
+}
+
+section {
+    width: 960px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px auto;
+    border: dotted 2px #FF0000;
+}
+
+section.formacao {
+    background-color: rgb(43, 226, 98);
+}
+
+article {
+    text-align: start;
+    width: 960px;
+    border: dotted 2px #FF0000;
+    background-color: cadetblue;
+}
+
+footer {
+    text-align: center;
+    margin: 20px auto;
+    width: 960px;
+    padding: 30px;
+    border: dotted 2px #FF0000;
+    background-color: rgb(193, 212, 124);
+}
+
+section.links {
+    width: 250px;
+    float: left;
+    position: absolute;
+    left: 421px;
+    top: 194px;
+    height: 1437px;
+}
+
+section.media {
+    width: 630px;
+    position: relative;
+    float: right;
+    left: -412px;
+}
+
+footer.footer-hobbies {
+    width: 960px;
+    position: relative;
+    top: 1540px;
+
+}

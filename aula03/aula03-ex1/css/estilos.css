@@ -1,0 +1,70 @@
+body { 
+    font-family: sans-serif;
+    background-image: url(../imagens/moroccan-flower.png); 
+    background-attachment: fixed;
+    font-size: large;
+}
+
+h1 {
+    color: rgba(14, 98, 123, 0.8);
+    text-align: center;
+    
+}
+
+h3 {
+    color: #ff5722;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.destaque {
+    background-color: aqua;
+    color: red;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+mark {
+    background-color: blue;
+}
+
+strong {
+    font-size: 25px;
+}
+
+em {
+    color: green;
+}
+
+input {
+    background-color: #ff0000;
+    color: white;  
+}
+    
+input:focus {   
+    background-color: #000000;   
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    text-decoration: none; 
+    color: green;  
+}
+
+a:hover {
+    text-decoration: underline;  
+    color: greenyellow;  
+}
+
+img:hover {
+    border-radius: 20px;
+}

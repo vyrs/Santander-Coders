@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(120, 47, 255);
+    display: flex;
+    width: 800px;
+    height: 800px;
+}
+
+.pessoas {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.pessoa {
+    width: 400px;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.pessoa img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.pessoa p {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 15px;
+}
+
+.pessoa h6 {
+    display: inline-block;
+    margin-left: -90px;
+    height: 15px;
+    margin-top: 50px;
+    color: gray;
+}
+
+/* .pessoa:after {
+    height: 3px;
+    border-bottom: 1px solid green;
+    content: '';
+    position: relative;
+    width: 70%;
+    top: 100%;
+} */
+/*
+
+
+Acho que dá pra alinha os blocos img e p e h6 usando flex
+
+*/
+
+/* .pessoa p {
+    display: inline;
+}
+
+.pessoa h6 {
+    display: inline;
+} */

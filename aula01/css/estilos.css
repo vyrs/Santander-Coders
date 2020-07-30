@@ -1,0 +1,22 @@
+body { 
+    font-family: sans-serif;
+    background-color: aqua; 
+}
+
+h1 {
+    color: #ff5722;
+    text-align: center;
+    
+}
+
+h3 {
+    color: #ff5722;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}

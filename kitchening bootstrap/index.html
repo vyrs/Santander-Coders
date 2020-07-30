@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu teste</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            background-image: url(https://i.postimg.cc/26kdPMb7/bg-body.png);
+        }
+
+        .nav-link {
+            background-color: gray!important;
+        }
+
+        img.special {
+            position: absolute;
+            top: 0px;
+            right: 12px;
+        }
+
+        a.zoom {
+            position: relative;
+            display: block;
+            background-color: black;
+            color: white;
+            opacity: 0.5;
+            text-align: center;
+            width: 100%;
+            top: -90px;
+        }
+
+
+        .main-footer {
+            background-color: #d50000;
+        }
+
+        .main-footer a {
+            color: white;
+        }
+
+        .main-footer li::after {
+            color: #fff !important;
+            content: "|"  !important;
+        }
+
+        .main-footer li:last-child::after {
+            content: none !important;
+        }
+
+        .rounded-bottom {
+            border-radius: 20px;
+        }
+
+        /* @media (max-width: 1199px) {
+            a.zoom {
+                width: 91%;
+                right: 14px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            a.zoom {
+                width: 95.6%;
+                right: 15px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            a.zoom {
+                width: 94.3%;
+                right: 15px;
+            }
+        } */
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center">
+            <img class="rounded-circle my-3" src="https://i.postimg.cc/C5dGK84Z/logo.jpg" alt="">
+            <div class="main-nav my-3">
+                <ul class="nav nav-pills d-flex justify-content-between">
+					<li class="nav-item col-sm-12 col-lg-2 pl-lg-0"><a class="nav-link active" href="#">home</a></li>
+					<li class="nav-item col-sm-12 col-lg-2"><a class="nav-link active" href="#">quienes</a></li>
+					<li class="nav-item col-sm-12 col-lg-2"><a class="nav-link active" href="#">servicios</a></li>
+					<li class="nav-item col-sm-12 col-lg-2"><a class="nav-link active" href="#">portfolio</a></li>
+					<li class="nav-item col-sm-12 col-lg-2"><a class="nav-link active" href="#">sucursales</a></li>
+					<li class="nav-item col-sm-12 col-lg-2 pr-lg-0"><a class="nav-link active" href="#">contacto</a></li>
+				</ul>
+            </div>
+        </header>
+
+        <div class="my-3">
+            <img src="https://i.postimg.cc/d15Rv6GP/img-banner.jpg" width="100%" alt="">
+        </div>
+
+        <div class="row my-3">
+            <div class="col-sm-12 col-lg-4 my-3">
+                <div class=""><!--tentar colocar como absolute, criar uma classe-->
+                    <img class="photo" src="https://i.postimg.cc/2yJ4L5H0/img-pdto-1.jpg" alt="pdto 01" width="100%">
+                    <img class="special" src="https://i.postimg.cc/YSkQWZ3B/img-nuevo.png" alt="plato nuevo">
+                    <a class="zoom" href="#">Ampliar foto</a>
+                </div>
+
+                <h2>Lorem ipsum amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
+                <a class="btn btn-info" href="#">ver más</a>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 my-3">
+                <div>
+                    <img class="photo" src="https://i.postimg.cc/2yJ4L5H0/img-pdto-1.jpg" alt="pdto 01" width="100%">
+                    <img class="special" src="https://i.postimg.cc/YSkQWZ3B/img-nuevo.png" alt="plato nuevo">
+                    <a class="zoom" href="#">Ampliar foto</a>
+                </div>
+
+                <h2>Lorem ipsum amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
+                <a class="btn btn-info" href="#">ver más</a>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 my-3">
+                <div>
+                    <img class="photo" src="https://i.postimg.cc/2yJ4L5H0/img-pdto-1.jpg" alt="pdto 01" width="100%">
+                    <img class="special" src="https://i.postimg.cc/YSkQWZ3B/img-nuevo.png" alt="plato nuevo">
+                    <a class="zoom" href="#">Ampliar foto</a>
+                </div>
+
+                <h2>Lorem ipsum amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
+                <a class="btn btn-info" href="#">ver más</a>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 my-3">
+                <div>
+                    <img class="photo" src="https://i.postimg.cc/2yJ4L5H0/img-pdto-1.jpg" alt="pdto 01" width="100%">
+                    <img class="special" src="https://i.postimg.cc/YSkQWZ3B/img-nuevo.png" alt="plato nuevo">
+                    <a class="zoom" href="#">Ampliar foto</a>
+                </div>
+
+                <h2>Lorem ipsum amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
+                <a class="btn btn-info" href="#">ver más</a>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 my-3">
+                <div>
+                    <img class="photo" src="https://i.postimg.cc/2yJ4L5H0/img-pdto-1.jpg" alt="pdto 01" width="100%">
+                    <img class="special" src="https://i.postimg.cc/YSkQWZ3B/img-nuevo.png" alt="plato nuevo">
+                    <a class="zoom" href="#">Ampliar foto</a>
+                </div>
+
+                <h2>Lorem ipsum amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
+                <a class="btn btn-info" href="#">ver más</a>
+            </div>
+
+            <div class="col-sm-12 col-lg-4 my-3">
+                <div>
+                    <img class="photo" src="https://i.postimg.cc/2yJ4L5H0/img-pdto-1.jpg" alt="pdto 01" width="100%">
+                    <img class="special" src="https://i.postimg.cc/YSkQWZ3B/img-nuevo.png" alt="plato nuevo">
+                    <a class="zoom" href="#">Ampliar foto</a>
+                </div>
+
+                <h2>Lorem ipsum amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint necessitatibus, officia ex.</p>
+                <a class="btn btn-info" href="#">ver más</a>
+            </div>
+        </div>
+
+        <footer class="main-footer d-flex flex-row justify-content-around rounded-bottom">
+			<ul class="nav p-5">
+				<li class="nav-item"><a class="p-3" href="#">home</a></li>
+				<li class="nav-item"><a class="p-3" href="#">quienes</a></li>
+				<li class="nav-item"><a class="p-3" href="#">servicios</a></li>
+				<li class="nav-item"><a class="p-3" href="#">portfolio</a></li>
+				<li class="nav-item"><a class="p-3" href="#">sucursales</a></li>
+				<li class="nav-item"><a class="p-3" href="#">contacto</a></li>
+			</ul>
+		</footer>
+
+    </div>
+</body>
+</html>

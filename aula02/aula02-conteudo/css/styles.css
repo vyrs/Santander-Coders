@@ -1,0 +1,47 @@
+/*# id 
+
+. class
+
+div div =>(mesmo que div>div) vai pegar todas as divs que estão dentro de outra divs
+
+div#car => vai pegar o elemento com id car que esta dntro de uma div
+
+position: scroll => some quando descemos a pagina*/
+
+.classe1 {
+    background: pink;
+    width:800px;
+    height:800px;
+	top: 200px;
+    left: 200px;
+    position: absolute;
+    z-index: 19;
+}
+
+.classe2 {
+    background: green;
+    width:400px;
+    height:400px;
+    position: relative;
+	top: 50px;
+    left: 100px;
+    z-index: 4;
+}
+
+.classe3 {
+    background: yellow;
+    width:200px;
+    height:200px;
+    position: relative;
+    z-index: 2;   
+}
+
+.classe4 {
+    background: red;
+    width:200px;
+    height:200px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    z-index: 30;   
+}

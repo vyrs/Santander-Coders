@@ -1,0 +1,101 @@
+#container {
+    background-color: rgb(151, 226, 236);
+    height: 900px;
+    width: 1060px;
+    position: fixed;
+    left: 200px;
+}
+
+#menu {
+    margin: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    width: 960px;
+    background-color: rgb(255, 0, 140);
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+#menu h2 {
+    display: inline;
+    padding: 10px;
+
+}
+
+img {
+    margin-top: 8px;
+    margin-left: 9px;
+    float: left;
+    z-index: 2;
+    position: relative;
+}
+
+#conteudo {
+    width: 960px;
+    height: 700px;
+    margin: 50px;
+    position: relative;
+    background-color: white;
+}
+
+.produtos {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.produtos img {
+    width: 300px;
+}
+
+.produtos .vermais {
+    width: 100px;
+    top: -50px;
+    left: 100px;
+}
+
+.produtos .tag {
+    width: 70px;
+    top: -210px;
+    left: 120px;
+}
+
+.produtos p {
+    display: flex;
+    position: relative;
+    width: 200px;
+    top: -180px;
+    left: 9px;
+    z-index: 50;
+    color: white;
+    background-color: rgb(15, 71, 5);
+    padding-left: 100px;
+}
+
+.quadro {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    top: -550px;
+    left: 658px;
+    display: flex;
+    position: relative;
+    z-index: 50;
+    border: 1px solid black;
+}
+
+.quadro div {
+    width: 360px;
+    height: 180px;
+    margin: 10px 20px;
+    border: 1px solid black;
+}
+
+.quadro div h3 {
+    line-height: 5px;
+}
+
+

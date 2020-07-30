@@ -1,0 +1,31 @@
+body { 
+    font-family: sans-serif;
+    background-image: url(../imagens/moroccan-flower.png); 
+    background-attachment: fixed;
+    font-size: large;
+}
+
+h1 {
+    color: rgba(14, 98, 123, 0.8);
+    text-align: center;
+    
+}
+
+h3 {
+    color: #ff5722;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.destaque {
+    background-color: aqua;
+    color: red;
+    font-size: 22px;
+    line-height: 25px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <a href="./index.html">Ir para Página Inicial</a>
+    <br>
+    <a href="./hobbies.html">Ir para Hobbies</a>
+    <hr>
+    <form action="">
+        <label for="nomeEsobrenome">Nome e Sobrenome:</label>
+        <input type="text" name="nomeEsobrenome" id="nomeEsobrenome" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="assunto">Assunto:</label>
+        <select name="assunto" id="assunto">
+            <option value="">Música</option>
+            <option value="">livros</option>
+            <option value="">Filmes</option>
+        </select>
+
+        <br>
+        <label>Gênero:</label>
+        <input type="radio" name="genero" value="masculino">masculino
+        <input type="radio" name="genero" value="feminino">feminino
+        <input type="radio" name="genero" value="outro">prefiro não responder
+        
+        <br>
+        <label>Passatempos:</label>
+        <input type="checkbox" name="passatempos" value="Surf">Surf
+        <input type="checkbox" name="passatempos" value="Surf">Música
+        <input type="checkbox" name="passatempos" value="Surf">Séries
+        <input type="checkbox" name="passatempos" value="Surf">Filmes
+        <input type="checkbox" name="passatempos" value="Surf">Esportes
+
+        <br>
+        <label for="comentarios">Comentários:</label><br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" required></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Excluir</button>
+
+    </form>
+</body>
+</html>
