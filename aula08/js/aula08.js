@@ -6,11 +6,15 @@
 // console.log(ParOuImpar(3));
 
 // let primo = (n) => {
-//     if (n % 2 !== 0 && n % 3 !== 0) return "é primo";
-//     return "não é primo";
+//     for (let i = 2; i < n; i++) {
+//         if (n % i === 0) {
+//             return n + " não é primo!";
+//         }
+//     }
+//     return n + " é primo!";
 // }
 
-// console.log(primo(4));
+// console.log(primo(11));
 
 // function circunferencia(raio) {
 //     function diametro() {
