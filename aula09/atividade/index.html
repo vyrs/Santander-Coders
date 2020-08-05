@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <script>
+
+    function principal() {
+
+        document.querySelector("form").addEventListener("submit", envio);
+        function envio() {
+            
+            var id = document.getElementById('id').value;
+            var name = document.getElementById('name').value;
+            var sobrenome = document.getElementById('sobreNome').value;
+            var location = document.getElementById('location').value;
+            var password = document.getElementById('password').value;
+            var passwordConf = document.getElementById('passwordConf').value;
+
+            if(id === ""){
+                alert("O Campo ID é obrigatório!");
+                return;
+            } 
+            if(name === ""){
+                alert("O Campo Nome é obrigatório!");
+                return;
+            } 
+            if(sobrenome === ""){
+                alert("O Campo Sobrenome é obrigatório!");
+                return;
+            }
+            if(location === ""){
+                alert("O Campo Local é obrigatório!");
+                return;
+            }
+            if(password === ""){
+                alert("O Campo Senha é obrigatório!");
+                return;
+            }
+            if(passwordConf === ""){
+                alert("O Campo Senha Novamente é obrigatório!");
+                return;
+            }
+            if(passwordConf !== password){
+                alert("O campo Senha novamente precisa ser igual ao campo senha!");
+                return;
+            }
+
+            var nomeCompleto = name + " " + sobrenome;
+
+            console.log(id);
+            console.log(name);
+            console.log(sobrenome);
+            console.log(nomeCompleto);
+            console.log(location);
+            console.log(password);
+            // $.ajax({
+            //     method: "POST",
+            //     url: "http://localhost:3000/users",
+            //     data: {
+            //         "id": id,
+            //         "name": name,
+            //         "location": location
+            //     }
+            // });
+        };
+    };
+    </script>
+</head>
+<body onload="principal()">
+    <form  action="" id="formulario">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id"><br>
+
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name"><br>
+
+        <label for="sobreNome">Sobrenome:</label><br>
+        <input type="text" id="sobreNome"><br>
+
+        <label for="location">Local:</label><br>
+        <input type="text" id="location"><br><br>
+
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password"><br><br>
+
+        <label for="passwordConf">Senha Novamente:</label><br>
+        <input type="password" id="passwordConf"><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

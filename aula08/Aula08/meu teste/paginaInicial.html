@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script language='Javascript'>
+			
+        function iniciaJogo(){
+            var nivel_jogo = document.getElementById('nivel_jogo').value;
+
+            window.location.href = "index.html?"+nivel_jogo; //mostra o nivel na url
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="paginaInicial">
+        <b>Quantidade de Quadros: </b>
+				<select id="nivel_jogo">
+					<option value="10">10 quadros</option>
+					<option value="25">25 quadros</option>
+					<option value="35">35 quadros</option>
+				</select>
+        <button onclick="iniciaJogo()">Iniciar Jogo</button>
+    </div>
+</body>
+</html>
