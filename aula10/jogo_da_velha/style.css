@@ -1,0 +1,8 @@
+#vencedor {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background-color: aqua;
+    color: white;
+    padding-top: 50px;
+}
